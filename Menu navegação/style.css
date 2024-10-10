@@ -1,0 +1,47 @@
+*{
+    margin: 0;/*Removendo as margens padrão*/
+    padding: 0;/*Removendo o preenchimento padrão*/
+}
+/*Estilizar o cabeçalho*/
+header {
+background-color: rgba(48, 7, 83, 0.808);/*define a cor de fundo do cabeçalho*/
+padding: 20px 0px;/*Adiciona espaçamento na parte superior e inferior do cabeçalho*/
+}
+nav ul li {
+    display: flex;/*define a exibição os itens da lista para a linha*/
+    list-style: none;/*Remove os marcadores*/
+    justify-content: center;/*centraliza os itens do menu ao centro*/
+    margin: 15px;
+}
+nav ul  {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin:15px;
+}
+nav ul li {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   padding: 5px 10px;
+   transition: color 0.1s;
+}
+nav ul li:hover {
+   color: black(11, 54, 88);
+
+
+}
+section{
+    padding: 60px 20px;
+    text-align: center;
+    height: 900px;
+}
+#Home{
+    background-color: rgba(99, 10, 158, 0.945);
+}    
+#Sobre{
+    background-color: rgba(116, 45, 163, 0.705);
+}
+#Contato{
+    background-color: rgb(208, 127, 255);
+}
